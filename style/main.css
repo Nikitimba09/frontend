@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+.Rectangle{
+    background-size:cover ;
+    background-color: #2D2131;
+    margin: 0px;
+    padding: 0 auto;
+    width: 1920px;
+    height: 69px;
+}
+
+.container{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-image: url(../image/background.png);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-line{
+    padding-top: 4px;
+    display: flex;
+    
+}
+
+.arrow-3 {
+    font-family: 'Montserrat';
+    color: #ffff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px; 
+    display: inline-block; 
+    margin: 20px;
+}
+.arrow-3 .arrow-3-icon {
+    position: relative;
+    top: -1px;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+}
+.arrow-3 .arrow-3-iconcircle {
+    transition: stroke-dashoffset .3s ease;
+    stroke-dasharray: 95;
+    stroke-dashoffset: 95;
+}
+.arrow-3:hover .arrow-3-icon {
+    transform: translate3d(5px, 0, 0);
+}
+.arrow-3:hover .arrow-3-iconcircle {
+    stroke-dashoffset: 0;
+}
+
+.text{
+    padding: 150px;
+    margin: 236px;
+}
+h1{
+    font-family: 'Cormorant Garamond';
+    font-style: 'serif';
+    font-size: 96px;
+    color: #ffff;
+}
+span{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #ffff;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #ffff;
+}
+
+.phone{
+    width: 43px;
+    height: 40px;
+    padding-right: 0px;
+    padding-left: 1400px;
+    padding-top: 10px;
+}
+.bttn{
+    padding-left: 1px;
+}
+.header-logo{
+    padding-left:117px;
+}
+
+.about{
+    width: 1920px;
+    height: 418px;
+    align-items: center;
+}
+
+
+
+h2{
+    padding: 0 auto;
+    margin: 200px;
+    font-family: 'Cormorant Garamond';
+    font-size: 64px;
+    color: #1E1E1E;
+}
+.about-text{
+    
+    padding: 150px ;
+    margin: 300px;
+    
+}
+
+.about-company{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #1E1E1E;
+    display: flex;
+}
